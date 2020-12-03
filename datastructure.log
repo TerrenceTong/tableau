@@ -1,0 +1,36 @@
+0: ip,账号通过
+1: ip通过，账号怀疑
+2: ip通过，账号封禁
+3: ip怀疑
+4: ip封禁
+
+target_ip = []
+target_account = []
+start_time
+stop_time
+T1
+T2
+
+ip_time = { ip1 : [(idx, time), 2, 3, 4],···}
+ip_state = {ip1 : [(idx, status), 2, 1, 0],···}
+ip_statistical = { ip1 : [min,mean,max,std],···}
+
+account_time = { account1 : [],···}
+account_state = {account1 : [],···}
+account_statistical = {account1:[min,mean,max,std]}
+
+# 频率
+target_ip_frequency = {ip1:[[time, frequency],···]}
+target_ip_status = {ip1:[] , ip2:[] ,}
+target_account_frequency = {account1:[[time, frequency],···]}
+
+# 间隔
+target_ip_interval = {ip1:[[time, frequency],···]}
+target_account_interval = {account1:[[time, frequency],···]}
+
+# 连续在线时长
+target_ip_online = {ip1:[(time, online), ···]}
+target_account_online = {account1:[(time, online), ···]}
+
+# 总在线时长
+target_ip = {ip1:[(time, total),···]}
